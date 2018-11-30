@@ -2,3 +2,5 @@ node_modules
 aot
 dist
 .idea
+.vs
+.vscode
