@@ -18,7 +18,7 @@ import { ImageLoaderService } from './services/image-loader.service';
   exports: [IonicImageLoaderComponent],
 })
 export class IonicImageLoader {
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<IonicImageLoader> {
     return {
       ngModule: IonicImageLoader,
       providers: [
