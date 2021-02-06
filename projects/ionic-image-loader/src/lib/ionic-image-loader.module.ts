@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { ModuleWithProviders, NgModule } from '@angular/core';
-import { File } from '@ionic-native/file/ngx';
+// import { File } from '@ionic-native/file/ngx';
 import { IonicModule } from '@ionic/angular';
 import { IonicImageLoaderComponent } from './ionic-image-loader.component';
 
@@ -24,7 +24,7 @@ export class IonicImageLoader {
       providers: [
         ImageLoaderConfigService,
         ImageLoaderService,
-        File,
+        // File,
       ],
     };
   }
