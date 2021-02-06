@@ -1,4 +1,4 @@
-# ionic-image-loader for ionic V5 / Angular 8
+# ionic-image-loader for ionic V5 / Angular 11
 
 This is a fork of (https://github.com/zyramedia/ionic-image-loader) that appears no longer maintained.
 
