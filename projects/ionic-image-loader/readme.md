@@ -1,4 +1,4 @@
-# ionic-image-loader for ionic V5 / Angular 11
+# ionic-image-loader for ionic V5 / Angular 12
 
 This is a fork of (https://github.com/zyramedia/ionic-image-loader) that appears no longer maintained.
 
@@ -6,7 +6,7 @@ This is a fork of (https://github.com/zyramedia/ionic-image-loader) that appears
 
 #### 1. Install the NPM Package
 ```
-npm i --save ionic-image-loader@beta
+npm i --save @henkkelder/ionic-image-loader
 ```
 
 #### 2. Install Required Plugins
