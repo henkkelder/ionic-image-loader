@@ -1,4 +1,4 @@
-# ionic-image-loader for ionic V5 / Angular 12
+# ionic-image-loader for ionic V5 / Angular 13
 
 This is a fork of (https://github.com/zyramedia/ionic-image-loader) that appears no longer maintained.
 
@@ -6,7 +6,7 @@ This is a fork of (https://github.com/zyramedia/ionic-image-loader) that appears
 
 #### 1. Install the NPM Package
 ```
-npm i --save @henkkelder/ionic-image-loader
+npm i --save @henkkelder/ion-image-loader
 ```
 
 #### 2. Install Required Plugins
@@ -20,7 +20,7 @@ ionic cordova plugin add cordova-plugin-file
 
 **Add `IonicImageLoader.forRoot()` and `WebView` in your app's root module**
 ```typescript
-import { IonicImageLoader } from 'ionic-image-loader';
+import { IonicImageLoader } from '@henkkelder/ion-image-loader';
 import { WebView } from '@ionic-native/ionic-webview/ngx';
 
 // import the module
@@ -38,7 +38,7 @@ export class AppModule {}
 
 **Then add `IonicImageLoader` in your child/shared module(s)**
 ```typescript
-import { IonicImageLoader } from 'ionic-image-loader';
+import { IonicImageLoader } from '@henkkelder/ion-image-loader';
 
 @NgModule({
   ...

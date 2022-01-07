@@ -1,6 +1,6 @@
-# ionic-image-loader for ionic v4
+# ionic-image-loader for ionic v5
 
 To install:
 ```shell
-npm i -S ionic-image-loader@beta
+npm i -S @henkkelder/ion-image-loader
 ```
