@@ -7,8 +7,7 @@ import { Component } from '@angular/core';
 })
 export class VirtualScrollPage {
   // images taken from pexels.com
-  public images: Array<any>;
-  images1: string[] = [
+  images: string[] = [
     'https://images.pexels.com/photos/27986/pexels-photo-27986.jpg?h=350&auto=compress&cs=tinysrgb',
     'https://images.pexels.com/photos/115010/tulips-red-red-tulips-garden-115010.jpeg?h=350&auto=compress&cs=tinysrgb',
     'https://images.pexels.com/photos/206393/pexels-photo-206393.jpeg?h=350&auto=compress&cs=tinysrgb',
@@ -19,12 +18,6 @@ export class VirtualScrollPage {
   ];
 
   constructor() {
-    for (let i = 0; i < 5; i++) {
-      this.images = [
-        this.images1,
-        this.images1,
-      ];
-    }
   }
 }
 

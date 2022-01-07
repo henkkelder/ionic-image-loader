@@ -212,8 +212,9 @@ export class IonicImageLoaderComponent implements OnInit {
       this.element = this._element.nativeElement;
 
       for (const prop in propMap) {
-        if (this[prop]) {
-          this.renderer.setStyle(this.element, propMap[prop], this[prop]);
+        const propValue = this[prop];
+        if (propValue) {
+          this.renderer.setStyle(this.element, propMap[prop], propValue);
         }
       }
       this.renderer.setStyle(

@@ -570,7 +570,7 @@ export class ImageLoaderService {
         const base64: string = await this.file.readAsDataURL(dirPath, fileName);
         return base64.replace('data:null', 'data:*/*');
       } else if (this.config.imageReturnType !== 'uri') {
-        return;
+        return null;
       }
 
       // now check if iOS device & using WKWebView Engine.
