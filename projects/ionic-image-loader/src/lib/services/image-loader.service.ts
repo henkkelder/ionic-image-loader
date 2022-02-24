@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { File, FileEntry } from '@ionic-native/file/ngx';
-import { WebView } from '@ionic-native/ionic-webview/ngx';
+import { File, FileEntry } from '@awesome-cordova-plugins/file/ngx';
+import { WebView } from '@awesome-cordova-plugins/ionic-webview/ngx';
 import { Platform } from '@ionic/angular';
 import { fromEvent, Subject } from 'rxjs';
 import { filter, first, take } from 'rxjs/operators';

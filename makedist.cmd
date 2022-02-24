@@ -1,1 +1,1 @@
-npm run build
+ng build ionic-image-loader

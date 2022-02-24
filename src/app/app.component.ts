@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
-import { SplashScreen } from '@ionic-native/splash-screen/ngx';
-import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { StatusBar } from '@awesome-cordova-plugins/status-bar/ngx';
 
 import { Platform } from '@ionic/angular';
 import { ImageLoaderConfigService } from '../../projects/ionic-image-loader/src/lib/services/image-loader-config.service';
-
 
 @Component({
   selector: 'app-root',
@@ -13,7 +11,6 @@ import { ImageLoaderConfigService } from '../../projects/ionic-image-loader/src/
 export class AppComponent {
   constructor(
     private platform: Platform,
-    private splashScreen: SplashScreen,
     private statusBar: StatusBar,
     imageLoaderConfig: ImageLoaderConfigService,
   ) {
@@ -37,7 +34,6 @@ export class AppComponent {
   initializeApp() {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
-      this.splashScreen.hide();
     });
   }
 }
