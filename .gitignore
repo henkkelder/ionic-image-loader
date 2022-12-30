@@ -4,3 +4,8 @@ dist
 .idea
 .vs
 .vscode
+platforms\
+plugins\
+www\
+
+/platforms
