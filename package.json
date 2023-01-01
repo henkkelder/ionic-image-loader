@@ -30,8 +30,6 @@
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
     "cordova-browser": "6.0.0",
-    "cordova-plugin-device": "^2.0.3",
-    "cordova-plugin-file": "^7.0.0",
     "cordova-plugin-splashscreen": "^6.0.0",
     "cordova-plugin-statusbar": "^3.0.0",
     "core-js": "^3.20.2",
@@ -52,6 +50,8 @@
     "@ionic/angular-toolkit": "^7.0.0",
     "@types/node": "^18.0.4",
     "cordova-android": "^11.0.0",
+    "cordova-plugin-device": "^2.1.0",
+    "cordova-plugin-file": "github:apache/cordova-plugin-file",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-ionic-webview": "^5.0.0",
     "ng-packagr": "^15.0.3",
@@ -61,12 +61,14 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "cordova-plugin-file": {},
       "cordova-plugin-statusbar": {},
-      "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-file": {
+        "ANDROIDX_WEBKIT_VERSION": "1.4.0"
+      },
+      "cordova-plugin-device": {}
     },
     "platforms": [
       "browser",
