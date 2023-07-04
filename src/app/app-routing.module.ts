@@ -8,8 +8,6 @@ const routes: Routes = [
   {path: 'cards', loadChildren: () => import('./cards/cards.module').then(m => m.CardsPageModule)},
   {path: 'concurrency', loadChildren: () => import('./concurrency/concurrency.module').then(m => m.ConcurrencyPageModule)},
   {path: 'ng-content', loadChildren: () => import('./ng-content/ng-content.module').then(m => m.NgContentPageModule)},
-  {path: 'slider', loadChildren: () => import('./slider/slider.module').then(m => m.SliderPageModule)},
-  {path: 'virtual-scroll', loadChildren: () => import('./virtual-scroll/virtual-scroll.module').then(m => m.VirtualScrollPageModule)},
 ];
 
 @NgModule({
