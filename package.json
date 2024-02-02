@@ -13,66 +13,62 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^16.2.12",
-    "@angular/core": "^16.2.12",
-    "@angular/forms": "^16.2.12",
-    "@angular/platform-browser": "^16.2.12",
-    "@angular/platform-browser-dynamic": "^16.2.12",
-    "@angular/router": "^16.2.12",
+    "@angular/common": "^17.1.2",
+    "@angular/core": "^17.1.2",
+    "@angular/forms": "^17.1.2",
+    "@angular/platform-browser": "^17.1.2",
+    "@angular/platform-browser-dynamic": "^17.1.2",
+    "@angular/router": "^17.1.2",
     "@awesome-cordova-plugins/core": "^6.2.0",
     "@awesome-cordova-plugins/file": "^6.2.0",
     "@awesome-cordova-plugins/ionic-webview": "^6.2.0",
     "@awesome-cordova-plugins/splash-screen": "^6.2.0",
     "@awesome-cordova-plugins/status-bar": "^6.2.0",
     "@ionic/angular": "^7.0.0",
-    "@ionic/cordova-builders": "^9.0.0",
+    "@ionic/cordova-builders": "^11.0.0",
     "@types/estree": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.8.0",
-    "@typescript-eslint/parser": "^5.8.0",
-    "cordova-browser": "6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "cordova-browser": "7.0.0",
     "cordova-plugin-splashscreen": "^6.0.0",
-    "cordova-plugin-statusbar": "^3.0.0",
     "core-js": "^3.20.2",
     "eslint": "^8.1.0",
-    "ionicons": "^6.0.2",
+    "ionicons": "^7.2.2",
     "rxjs": "^7.5.6",
-    "zone.js": "^0.13.3"
+    "zone.js": "^0.14.3"
   },
   "devDependencies": {
-    "@angular-builders/custom-webpack": "^15.0.0",
-    "@angular-devkit/architect": "^0.1602.12",
-    "@angular-devkit/build-angular": "^16.2.12",
-    "@angular-devkit/core": "^16.2.12",
-    "@angular-devkit/schematics": "^16.2.12",
-    "@angular/cli": "^16.2.12",
-    "@angular/compiler": "^16.2.12",
-    "@angular/compiler-cli": "^16.2.12",
-    "@ionic/angular-toolkit": "^7.0.0",
-    "@types/node": "^18.0.4",
-    "cordova-android": "^11.0.0",
+    "@angular-builders/custom-webpack": "^17.0.0",
+    "@angular-devkit/architect": "^0.1701.2",
+    "@angular-devkit/build-angular": "^17.1.2",
+    "@angular-devkit/core": "^17.1.2",
+    "@angular-devkit/schematics": "^17.1.2",
+    "@angular/cli": "^17.1.2",
+    "@angular/compiler": "^17.1.2",
+    "@angular/compiler-cli": "^17.1.2",
+    "@ionic/angular-toolkit": "^11.0.1",
+    "@types/node": "^20.11.16",
     "cordova-plugin-device": "^2.1.0",
-    "cordova-plugin-file": "github:apache/cordova-plugin-file",
+    "cordova-plugin-file": "^8.0.1",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-ionic-webview": "^5.0.0",
-    "ng-packagr": "^16.2.3",
+    "cordova-plugin-statusbar": "^4.0.0",
+    "ng-packagr": "^17.1.2",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.3.3"
   },
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "cordova-plugin-statusbar": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
-      "cordova-plugin-file": {
-        "ANDROIDX_WEBKIT_VERSION": "1.4.0"
-      },
-      "cordova-plugin-device": {}
+      "cordova-plugin-device": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-statusbar": {}
     },
     "platforms": [
-      "browser",
-      "android"
+      "browser"
     ]
   }
 }
