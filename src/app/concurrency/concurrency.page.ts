@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-concurrency',
-  templateUrl: './concurrency.page.html',
-  styleUrls: ['./concurrency.page.scss'],
+    selector: 'app-concurrency',
+    templateUrl: './concurrency.page.html',
+    styleUrls: ['./concurrency.page.scss'],
+    standalone: false
 })
 export class ConcurrencyPage implements OnInit {
   images: string[] = [];

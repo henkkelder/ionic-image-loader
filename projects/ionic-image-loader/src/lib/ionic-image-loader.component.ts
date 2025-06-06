@@ -16,8 +16,8 @@ export interface ImageAttribute {
 }
 
 @Component({
-  selector: 'img-loader',
-  template: `
+    selector: 'img-loader',
+    template: `
     <ion-spinner
         *ngIf="spinner && isLoading && !fallbackAsPlaceholder"
         [name]="spinnerName"
@@ -25,9 +25,10 @@ export interface ImageAttribute {
     ></ion-spinner>
     <ng-content></ng-content>
   `,
-  styles: [
-    'ion-spinner { float: none; margin-left: auto; margin-right: auto; display: block; }',
-  ],
+    styles: [
+        'ion-spinner { float: none; margin-left: auto; margin-right: auto; display: block; }',
+    ],
+    standalone: false
 })
 export class IonicImageLoaderComponent implements OnInit {
   /**

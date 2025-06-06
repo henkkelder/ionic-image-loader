@@ -4,9 +4,10 @@ import { ImageLoaderConfigService } from '../../../projects/ionic-image-loader/s
 import { ImageLoaderService } from '../../../projects/ionic-image-loader/src/lib/services/image-loader.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+    selector: 'app-home',
+    templateUrl: 'home.page.html',
+    styleUrls: ['home.page.scss'],
+    standalone: false
 })
 export class HomePage {
 

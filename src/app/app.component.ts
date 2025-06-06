@@ -5,8 +5,9 @@ import { Platform } from '@ionic/angular';
 import { ImageLoaderConfigService } from '../../projects/ionic-image-loader/src/lib/services/image-loader-config.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: 'app.component.html',
+    selector: 'app-root',
+    templateUrl: 'app.component.html',
+    standalone: false
 })
 export class AppComponent {
   constructor(

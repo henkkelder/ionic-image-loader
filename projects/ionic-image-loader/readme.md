@@ -1,6 +1,6 @@
-# ionic-image-loader for ionic V5 / Angular 13
+# ionic-image-loader for ionic V5 / Angular 19
 
-This is a fork of (https://github.com/zyramedia/ionic-image-loader) that appears no longer maintained.
+This is a fork of (https://github.com/zyramedia/ionic-image-loader) that is no longer maintained.
 
 ## Installation
 
